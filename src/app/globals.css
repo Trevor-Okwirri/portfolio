@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes textFadeInDelay {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes imageFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes namePulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes nameGlow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes nameBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-textFadeIn {
+  animation: textFadeIn 1s ease-out;
+}
+
+.animate-textSlideIn {
+  animation: textSlideIn 1.2s ease-out;
+}
+
+.animate-textFadeInDelay {
+  animation: textFadeInDelay 1.4s ease-out;
+}
+
+.animate-imageFadeIn {
+  animation: imageFadeIn 1.5s ease-out;
+}
+
+.animate-namePulse {
+  animation: namePulse 2s infinite ease-in-out;
+}
+
+.animate-nameGlow {
+  animation: nameGlow 2s infinite alternate;
+}
+
+.animate-nameBounce {
+  animation: nameBounce 1.5s infinite ease-in-out;
+}
+
+.scrollbar-custom {
+  @apply scrollbar-none scrollbar-thumb-gray-500 scrollbar-track-gray-200;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 50px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
