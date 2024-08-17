@@ -6,9 +6,9 @@
   "license": "See license in https://www.creative-tim.com/license",
   "homepage": "https://demos.creative-tim.com/nextjs-tailwind-portfolio-page",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next dev  --no-check",
+    "build": "next build --no-check",
+    "start": "next start --no-check",
     "lint": "next lint"
   },
   "dependencies": {
