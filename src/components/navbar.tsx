@@ -32,6 +32,10 @@ function NavItem({ children, href }: NavItemProps) {
         variant="paragraph"
         color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
+        children={undefined}
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         {children}
       </Typography>
@@ -52,9 +56,24 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    <MTNavbar
+      shadow={false}
+      fullWidth
+      className="border-0 sticky top-0 z-50"
+      children={undefined}
+      placeholder={undefined}
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
+    >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography color="blue-gray" className=" font-extrabold text-2xl">
+        <Typography
+          color="blue-gray"
+          className=" font-extrabold text-2xl"
+          children={undefined}
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           {"< PAMOJA Coding"}
           <br />
           {"HUB />"}
@@ -72,6 +91,10 @@ export function Navbar() {
             variant="filled"
             color="blue"
             className="transition-transform transform hover:scale-105 hover:animate-bounce"
+            children={undefined}
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Hire Me
           </Button>
@@ -81,6 +104,9 @@ export function Navbar() {
           color="gray"
           onClick={handleOpen}
           className="ml-auto inline-block lg:hidden"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           {open ? (
             <XMarkIcon strokeWidth={2} className="h-6 w-6" />
@@ -104,6 +130,10 @@ export function Navbar() {
               variant="filled"
               color="blue"
               className="transition-transform transform hover:scale-105 hover:animate-bounce"
+              children={undefined}
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Hire Me
             </Button>

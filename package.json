@@ -7,7 +7,7 @@
   "homepage": "https://demos.creative-tim.com/nextjs-tailwind-portfolio-page",
   "scripts": {
     "dev": "next dev  --no-check",
-    "build": "next build --no-check",
+    "build": "next build",
     "start": "next start --no-check",
     "lint": "next lint"
   },
