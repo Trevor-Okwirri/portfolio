@@ -1,0 +1,51 @@
+export default defineAppConfig(
+  {
+    global: {
+      picture: {
+        dark: '/photo.png',
+        light: '/photo.png',
+        alt: 'Trevor\'s picture'
+      },
+      meetingLink: 'https://cal.com/',
+      email: 'ui-pro@nuxt.com',
+      available: true
+    },
+    ui: {
+      colors: {
+        primary: 'blue',
+        neutral: 'neutral'
+      },
+      pageHero: {
+        slots: {
+          container: 'py-18 sm:py-24 lg:py-32',
+          title: 'mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
+          description: 'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted'
+        }
+      }
+    },
+    footer: {
+      credits: `Trevor Okwirri • © ${new Date().getFullYear()}`,
+      colorMode: false,
+      links: [
+        {
+          'icon': 'i-tabler-brand-whatsapp',
+          'aria-label': 'Whatsapp',
+          'to': 'https://wa.me/+254795008730',
+          'target': '_blank'
+        },
+        {
+          'icon': 'i-heroicons-envelope',
+          'aria-label': 'Email',
+          'to': 'mailto:trevorokwirri@gmail.com',
+          'target': '_blank'
+        },
+        {
+          'icon': 'i-simple-icons-github',
+          'to': 'https://github.com/Trevor-Okwirri',
+          'target': '_blank',
+          'aria-label': 'GitHub'
+        }
+      ]
+    }
+  }
+)

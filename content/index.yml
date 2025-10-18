@@ -1,0 +1,116 @@
+seo:
+  title: "Trevor Okwirri - Full Stack Developer"
+  description: "Welcome to my portfolio! I'm Trevor Okwirri, a full-stack developer. I blend an analytical mindset with modern frameworks like Laravel, Vue, Nuxt, React, and Flutter to craft high-performing digital experiences that merge clean design with solid engineering."
+
+title: "Hello 👋, I'm Trevor — Full Stack Developer"
+description: "I build fast, scalable, and data-driven digital experiences using Laravel, Vue, Nuxt, React, and Flutter. Blending design, performance, and analytics to turn ideas into impactful products."
+hero:
+  links:
+    - label: "Get In Touch"
+      url: "mailto:trevor.okwirri@example.com"
+      variant: "neutral"
+  images:
+    - src: /hero/screenshot-1.png
+      alt: Project Showcase 1
+    - src: /hero/screenshot-2.png
+      alt: Project Showcase 2
+    - src: /hero/screenshot-3.png
+      alt: Project Showcase 3
+    - src: /hero/screenshot-4.png
+      alt: Project Showcase 4
+    - src: /hero/screenshot-5.png
+      alt: Project Showcase 5
+    - src: /hero/screenshot-6.png
+      alt: Project Showcase 6
+    - src: /hero/screenshot-7.png
+      alt: Project Showcase 7
+    - src: /hero/screenshot-8.png
+      alt: Project Showcase 8
+    - src: /hero/screenshot-9.png
+      alt: Project Showcase 9
+
+about:
+  title: "About Me"
+  description: |
+    Full-stack developer and data scientist based in Kenya, blending an analytical mindset with a passion for building seamless, high-performing digital experiences. Skilled in Laravel for robust backends and APIs, Vue, Nuxt, and React for dynamic web interfaces, and Flutter for polished mobile apps. Driven by curiosity, clean architecture, and a love for development that turns ideas into intelligent, data-informed solutions.
+
+experience:
+  title: "Work Experience"
+  items:
+    - position: "Software Development Intern"
+      date: "May 2021 – Dec 2021"
+      company:
+        name: "TechSavanna Solutions"
+        logo: "i-simple-icons-laravel"
+        url: "https://techsavanna.technology/"
+        color: "#F55247"
+    - position: "Full-Stack Developer"
+      date: "Jan 2022 – Jun 2023"
+      company:
+        name: "MobiTech Solutions"
+        logo: "i-simple-icons-vuedotjs"
+        url: "https://mobitech.co.ke"
+        color: "#42B883"
+    - position: "Software Engineer"
+      date: "Jul 2023 – Apr 2024"
+      company:
+        name: "Datanest Analytics"
+        logo: "i-simple-icons-nuxtdotjs"
+        url: "https://datanest.co.ke"
+        color: "#00DC82"
+    - position: "Remote Full-Stack Developer"
+      date: "May 2024 – Dec 2024"
+      company:
+        name: "CodeSage Technologies"
+        logo: "i-simple-icons-react"
+        url: "https://codesage.in"
+        color: "#61DAFB"
+    - position: "Freelance Developer"
+      date: "2024 – Present"
+      company:
+        name: "Global Clients"
+        logo: "i-simple-icons-flutter"
+        url: "https://flutter.dev"
+        color: "#02569B"
+
+testimonials:
+  - quote: "Trevor’s ability to bridge design and development made a huge impact on our web platform. His Laravel and Vue work not only improved performance but also elevated the entire user experience."
+    author:
+      name: "James Mwangi"
+      description: "Product Manager at MobiTech Solutions"
+      avatar:
+        src: "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+  - quote: "Working with Trevor remotely was seamless. He’s highly analytical, detail-oriented, and consistently delivers clean, maintainable code that scales beautifully."
+    author:
+      name: "Ananya Patel"
+      description: "Project Lead at CodeSage Technologies"
+      avatar:
+        src: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=facearea&facepad=2&w=40&h=40&q=80"
+
+blog:
+  title: "Latest Articles"
+  description: "Thoughts on development, data, and design."
+
+faq:
+  title: "Frequently Asked Questions"
+  description: "Answers to common questions about my work and process."
+  categories:
+    - title: "Services & Process"
+      questions:
+        - label: "What services do you offer?"
+          content: |
+            I specialize in full-stack web and mobile development using Laravel, Vue, Nuxt, React, and Flutter. I also integrate data analytics into applications to help teams make informed, data-driven decisions.
+        - label: "Do you work remotely?"
+          content: |
+            Yes — I’ve successfully worked with both local and international teams, including a remote role with an Indian SaaS company.
+        - label: "Do you take freelance projects?"
+          content: |
+            Absolutely. I collaborate with startups and growing businesses to design and develop custom applications that are fast, scalable, and user-friendly.
+    - title: "About Me"
+      questions:
+        - label: "What do you enjoy most about development?"
+          content: |
+            I enjoy transforming complex problems into simple, elegant solutions that feel effortless to users. I love how development challenges me to think both creatively and logically.
+        - label: "What inspires your work?"
+          content: |
+            The intersection of technology, data, and design — creating systems that not only work well but make a real impact.

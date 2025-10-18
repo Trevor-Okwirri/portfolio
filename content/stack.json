@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "name": "Nuxt",
+      "link": "https://nuxt.com/",
+      "icon": "custom:nuxt"
+    },
+    {
+      "name": "Vue",
+      "link": "https://vuejs.org/",
+      "icon": "custom:vue"
+    },
+    {
+      "name": "TailwindCSS",
+      "link": "https://tailwindcss.com/",
+      "icon": "custom:tailwind"
+    },
+    {
+      "name": "Vercel",
+      "link": "https://vercel.com/",
+      "icon": "custom:vercel"
+    },
+    {
+      "name": "Flutter",
+      "link": "https://flutter.dev/",
+      "icon": "custom:flutter"
+    },
+    {
+      "name": "Dart",
+      "link": "https://dart.dev/",
+      "icon": "custom:dart"
+    },
+    {
+      "name": "Firebase",
+      "link": "https://firebase.google.com/",
+      "icon": "custom:firebase"
+    },
+    {
+      "name": "Laravel",
+      "link": "https://laravel.com/",
+      "icon": "custom:laravel"
+    },
+    {
+      "name": "PHP",
+      "link": "https://www.php.net/",
+      "icon": "custom:php"
+    },
+    {
+      "name": "Postgres",
+      "link": "https://www.postgresql.org/",
+      "icon": "custom:postgres"
+    },
+    {
+      "name": "Docker",
+      "link": "https://www.docker.com/",
+      "icon": "custom:docker"
+    },
+    {
+      "name": "Mongodb",
+      "link": "https://www.mongodb.com/",
+      "icon": "custom:mongodb"
+    },
+    {
+      "name": "React",
+      "link": "https://reactjs.org/",
+      "icon": "custom:react"
+    }
+  ]
+}

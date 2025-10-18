@@ -1,0 +1,38 @@
+title: Introduction
+description: Full-stack developer and data scientist based in Kenya, passionate about building seamless, high-performance digital experiences. Skilled in Laravel for robust backends and APIs, Vue, Nuxt, and React for dynamic web interfaces, and Flutter for cross-platform mobile apps. Currently pursuing a BSc. in Data Science and Analytics from JKUAT, blending software engineering with data-driven insights to create solutions that are both intelligent and impactful. Driven by a love for development, clean architecture, and purposeful design.
+languages: |
+  ### Languages
+    - English (Native)
+    - Swahili (Native)
+    - Luo (Fluent)
+    - German (Beginner)
+experience:
+  title: Work Experience
+  items:
+    - position: "Software Development Intern"
+      date: "May 2021 – Dec 2021"
+      company:
+        name: Konza Technopolis Development Authority
+        logo: "i-custom-konza"
+        url: "https://creative-agency.com"
+        color: "#FF5733"
+    - position: "Full-Stack Developer"
+      date: "Jan 2022 – Jun 2023"
+      company:
+        name: Gurucrafts Agency
+        logo: "i-simple-icons-webflow"
+        url: "https://websolutions.com"
+        color: "#33C3FF"
+    - position: "Remote Full-Stack Developer"
+      date: "Jan 2024 – Oct 2024"
+      company:
+        name: Som Sambhav Limited (India)
+        logo: "i-simple-icons-techcrunch"
+        url: "https://digitalagency.com"
+        color: "#33FF57"
+    - position: "Freelance Developer"
+      date: "2024 – Present"
+      company:
+        name: Self-Employed
+        logo: "i-simple-icons-github"
+        color: "#333333"

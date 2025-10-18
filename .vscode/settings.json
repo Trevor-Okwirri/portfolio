@@ -1,0 +1,33 @@
+{
+  // Use ESLint to format on save
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  // Use array form for broader VS Code compatibility
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+  // Per-language default formatter
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "ui"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "ui:\\s*{([^)]*)\\s*}",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  "mdc.enableComponentMetadataCompletions": true
+}
